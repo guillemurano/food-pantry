@@ -1,0 +1,8 @@
+version: '3.4'
+
+services:
+  foodpantry.api:
+    image: ${DOCKER_REGISTRY-}foodpantryapi
+    build:
+      context: .
+      dockerfile: src/FoodPantry.Api/Dockerfile
