@@ -2,7 +2,7 @@ using System;
 
 namespace FoodPantry.Models
 {
-  public class Pantry
+  public class Pantry : EntityBase
   {
     public string Name { get; set; }
     public long AddressId { get; set; }

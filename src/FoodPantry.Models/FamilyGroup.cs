@@ -2,7 +2,7 @@ using System;
 
 namespace FoodPantry.Models
 {
-  public class FamilyGroup
+  public class FamilyGroup : EntityBase
   {
     public long UserId { get; set; }
     public long AddressId { get; set; }
