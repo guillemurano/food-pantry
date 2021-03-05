@@ -23,8 +23,6 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FoodPantry.Core", "src\Food
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FoodPantry.Infrastructure.Tests", "test\FoodPantry.Infrastructure.Tests\FoodPantry.Infrastructure.Tests.csproj", "{4EB9EC58-EAD2-4916-9A42-BD6CC3D9AEA4}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FoodPantry.WebApplication", "src\FoodPantry.WebApplication\FoodPantry.WebApplication.csproj", "{F725BE32-9D17-4B21-B361-B1FB745D956A}"
-EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -63,10 +61,6 @@ Global
 		{4EB9EC58-EAD2-4916-9A42-BD6CC3D9AEA4}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{4EB9EC58-EAD2-4916-9A42-BD6CC3D9AEA4}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{4EB9EC58-EAD2-4916-9A42-BD6CC3D9AEA4}.Release|Any CPU.Build.0 = Release|Any CPU
-		{F725BE32-9D17-4B21-B361-B1FB745D956A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{F725BE32-9D17-4B21-B361-B1FB745D956A}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{F725BE32-9D17-4B21-B361-B1FB745D956A}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{F725BE32-9D17-4B21-B361-B1FB745D956A}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -79,7 +73,6 @@ Global
 		{F94EF450-A6F6-437A-8DC6-581B6C35974B} = {2C0C8251-3F8E-4348-ABD3-4FDB8494F0C4}
 		{F28D59AF-BBFA-4B8A-A9A3-93EA97F1DD39} = {E5574F0D-E075-4ABA-A406-05E83ECE838D}
 		{4EB9EC58-EAD2-4916-9A42-BD6CC3D9AEA4} = {2C0C8251-3F8E-4348-ABD3-4FDB8494F0C4}
-		{F725BE32-9D17-4B21-B361-B1FB745D956A} = {E5574F0D-E075-4ABA-A406-05E83ECE838D}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {E71DE630-5528-4475-B355-7563CB0A1575}
